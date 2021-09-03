@@ -1,0 +1,37 @@
+.Navbar {
+    background-color: #FFF;
+    height: 50px;
+    font-size: small;
+}
+.no-deco {
+    text-decoration: none;
+    padding-right: 20px;
+    color: black;
+}
+.Navbar p {
+    padding: 0 10px;
+    color: black;
+    transition: 0.2s;
+    display: block;
+}
+.Navbar p:hover {
+    color: red;
+}
+.logo {
+    font-weight: 700;
+    padding: 0 10px;
+    margin-left: 30px;
+    font-size: medium;
+}
+.about {
+    font-weight: 500;
+}
+.navbar__content {
+    display: flex;
+}
+.left__content {
+    padding-right: 30px;
+}
+.right__content {
+    padding-top: 2px;
+}
