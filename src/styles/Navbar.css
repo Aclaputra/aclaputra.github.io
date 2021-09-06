@@ -2,26 +2,21 @@
     background-color: #FFF;
     height: 50px;
     font-size: small;
+    margin-top: 5px;
+    z-index: 10;
 }
 .no-deco {
     text-decoration: none;
-    padding-right: 20px;
-    color: black;
-}
-.Navbar p {
-    padding: 0 10px;
+    /* padding-right: 20px; */
     color: black;
     transition: 0.2s;
-    display: block;
 }
-.Navbar p:hover {
-    color: red;
+.no-deco:hover {
+    color: rgb(2, 139, 202);
 }
+
 .logo {
     font-weight: 700;
-    padding: 0 10px;
-    margin-left: 30px;
-    font-size: medium;
 }
 .about {
     font-weight: 500;
