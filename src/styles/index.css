@@ -14,3 +14,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.italic {
+  font-style: italic;
+}
+.light-gray {
+  color: rgb(110, 110, 110);
+}
