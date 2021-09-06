@@ -1,5 +1,9 @@
 import './styles/App.css';
-import {BrowserRouter as Router} from 'react-router-dom'
+import './styles/responsive.css'
+import {BrowserRouter as Router, Link} from 'react-router-dom'
+import { 
+  Linkedin, Github, Instagram, Youtube, Twitter, Book
+} from 'react-bootstrap-icons'
 import Navbar from './Navbar'
 
 function App() {
@@ -7,7 +11,47 @@ function App() {
     <Router>
       <Navbar />
       <div className="App">
-        App js
+        <div className="header">
+          <div className="first__container">
+            <div className="pfp__img__container"><img src="komuk.jpg" alt="img-pfp" className="pfp__img"></img></div>
+            <div className="pfp__detail">
+              <div className="name">M ACLA ALAMSYAH PUTRA</div>
+              <div className="pfp__content light-gray"><Book size={15} /> Software Engineering student @ University of Raharja</div>
+              <div className="pfp__content">Owner of <a href="https://codingtopia.com" className="no-deco">codingtopia.com</a></div>
+              <div className="pfp__content">Tangerang, Indonesia</div>
+              <div className="skills__pfp">
+                <div className="skills__pfp-up">
+                  <div>JavaScript</div> <div>React</div> 
+                </div>
+                <div className="skills__pfp-down">
+                <div>Java</div>  <div>GO</div> <div className="skills__fullstack">Full Stack</div>
+                </div>
+              </div>
+              <div className="pfp__content">
+                <a href="https://www.linkedin.com/in/m-acla-alamsyah-putra-bbb8071b9/">
+                  <Linkedin className="socialMedias__content" size={20}/>
+                </a>
+                <a href="https://github.com/Aclaputra">
+                  <Github className="socialMedias__content" size={20}/> 
+                </a>
+                <a href="https://instagram.com/aclaputra">
+                  <Instagram className="socialMedias__content" size={20}/>
+                </a>
+                <a href="https://www.youtube.com/channel/UCw6TKkKAdEktUv8VDGqZaFQ">
+                  <Youtube className="socialMedias__content" size={20}/>
+                </a>
+                <a href="https://twitter.com/acla_putra">
+                  <Twitter className="socialMedias__content" size={20}/> 
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="second__container">
+            <div>Hi there! I'm Acla Putra a college student passionates in making Awesome Full Stack Applications, I love to explore programming world so i can teach and help people in needs with my skills.
+            Having a big dream is a must for me. As a college student with night shift i can learn something new outside the college like from Google, Youtube, Udemy etc, and making <Link to="/projects" className="link__projects no-deco">Projects</Link> in my spare time. <span className="italic">(Normally it is about 4-6 hours in the morning before the class).</span></div>
+            <div></div>
+          </div>
+        </div>
       </div>
     </Router>
   );
