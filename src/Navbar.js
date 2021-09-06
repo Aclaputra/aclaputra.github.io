@@ -22,7 +22,6 @@ function Navbar() {
                     </div>
                 </div>
                 
-                
             </div>
             <Switch>
                 <Route path="/" exact component={About}></Route>
