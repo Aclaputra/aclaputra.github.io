@@ -13,6 +13,11 @@
         padding: 0;
         margin: 5px;
     }
+
+    /* projects */
+    .list__project {
+        width: 50%;
+    }
 }
 
 @media (max-width: 775px) {
@@ -38,6 +43,8 @@
         margin: 0 auto;
         margin-bottom: 40px;
     }
+
+    /* projects */
 }
 
 /* @media (max-width: 670px) {
@@ -70,6 +77,8 @@
     .link_right_content {
         margin-right: 10px;
     }
+
+    /* projects */
     
 }
 
@@ -83,4 +92,6 @@
         margin-left: 30px;
         font-size: medium;
     }
+
+    /* projects */
 }
