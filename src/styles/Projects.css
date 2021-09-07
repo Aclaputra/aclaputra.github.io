@@ -1,0 +1,47 @@
+.list__projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.list__project {
+    width: 30%;
+    padding-bottom: 20px;
+}
+
+.project__content {
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .list__projects {
+        margin: 0 auto;
+    }
+    .list__project {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 815px) {
+    .list__project {
+        width: 100%;
+    }
+}
+/*
+.upper__projects, .list__projects {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.wd-80 {
+    width: 80%;
+    margin: auto;
+}
+
+.list__project__upper {
+    border-top-right-radius: 20px;
+}
+.list__project__upper img {
+    width: 100%;
+    overflow: hidden;
+} */
