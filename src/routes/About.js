@@ -19,7 +19,7 @@ function About() {
                   <div>JavaScript</div> <div>React</div> 
                 </div>
                 <div className="skills__pfp-down">
-                <div>Java</div>  <div>GO</div> <div className="skills__fullstack">Full Stack</div>
+                <div className="skills__fullstack">React Native</div> <div>Java</div> <div>Mobile</div>
                 </div>
               </div>
               <div className="pfp__content">
