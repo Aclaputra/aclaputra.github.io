@@ -1,5 +1,5 @@
-# my-portfolio
-Made with react js
+# 👔 — Portfolio-Aclaputra
+My personal website Portfolio made with React JS framework
 
 # Getting Started with Create React App
 
