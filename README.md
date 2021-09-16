@@ -1,6 +1,5 @@
 # my-portfolio
-
-<br>
+Made with react js
 
 # Getting Started with Create React App
 
