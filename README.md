@@ -1,5 +1,5 @@
 # 👔 — Portfolio-Aclaputra
-My personal website Portfolio made with React JS framework
+My personal website Portfolio made with React JS framework, react navigation, material-UI
 
 # Getting Started with Create React App
 
