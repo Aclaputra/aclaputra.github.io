@@ -1,3 +1,9 @@
+# 👔 — Portfolio-Aclaputra
+My personal website Portfolio made with:
+- React JS framework
+- react navigation
+- material-UI
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
