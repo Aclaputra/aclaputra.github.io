@@ -20,7 +20,7 @@ function About() {
                   <div>JavaScript</div> <div>React</div> 
                 </div>
                 <div className="skills__pfp-down">
-                  <div className="skills__fullstack" style={{height: '80'}}>React Native</div> <div>Frontend</div> <div>UI/UX</div>
+                  <div className="skills__fullstack">React Native</div> <div>Frontend</div> <div>UI/UX</div>
                 </div>
               </div>
 
