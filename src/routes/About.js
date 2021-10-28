@@ -14,14 +14,16 @@ function About() {
               <div className="pfp__content light-gray"><Book size={15} /> Software Engineering student @ University of Raharja</div>
               <div className="pfp__content">Owner of <a href="https://codingtopia.com" className="no-deco">codingtopia.com</a></div>
               <div className="pfp__content">Tangerang, Indonesia</div>
+
               <div className="skills__pfp">
                 <div className="skills__pfp-up">
                   <div>JavaScript</div> <div>React</div> 
                 </div>
                 <div className="skills__pfp-down">
-                <div className="skills__fullstack">React Native</div> <div>Java</div> <div>Mobile</div>
+                  <div className="skills__fullstack" style={{height: '80'}}>React Native</div> <div>Frontend</div> <div>UI/UX</div>
                 </div>
               </div>
+
               <div className="pfp__content">
                 <a href="https://www.linkedin.com/in/m-acla-alamsyah-putra-bbb8071b9/">
                   <Linkedin className="socialMedias__content" size={20}/>
