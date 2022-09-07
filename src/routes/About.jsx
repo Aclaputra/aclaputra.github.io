@@ -11,16 +11,16 @@ function About() {
             <div className="pfp__img__container"><img src="komuk.jpg" alt="img-pfp" className="pfp__img"></img></div>
             <div className="pfp__detail">
               <div className="name">M ACLA ALAMSYAH PUTRA</div>
-              <div className="pfp__content light-gray"><Book size={15} /> Software Engineering student @ University of Raharja</div>
-              <div className="pfp__content">Owner of <a href="https://codingtopia.com" className="no-deco">codingtopia.com</a></div>
+              <div className="pfp__content light-gray"><Book size={15} /> Final Year Software Engineering student at Universitas Raharja</div>
+              <div className="pfp__content">Fullstack Deveveloper Intern <a href="https://www.solutif.co.id/" className="no-deco">@Solutif</a></div>
               <div className="pfp__content">Tangerang, Indonesia</div>
 
               <div className="skills__pfp">
                 <div className="skills__pfp-up">
-                  <div>JavaScript</div> <div>React</div> 
+                  <div>PHP</div> <div>Java</div> <div>JavaScript</div> 
                 </div>
                 <div className="skills__pfp-down">
-                  <div className="skills__fullstack">React Native</div> <div>Frontend</div> <div>UI/UX</div>
+                  <div>Laravel</div> <div>Spring</div> <div className="skills__fullstack">React</div> <div>Fullstack</div> <div>Cloud</div> <div>Linux</div>
                 </div>
               </div>
 
