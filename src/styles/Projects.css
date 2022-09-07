@@ -1,15 +1,23 @@
+/*
 .list__projects {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
+*/
+
 .list__project {
     width: 30%;
     padding-bottom: 20px;
+    margin: 5px;
 }
 
 .project__content {
     margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
 }
 
 @media (max-width: 1024px) {
