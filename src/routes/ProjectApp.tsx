@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectList from './ProjectList.js';
+import ProjectList from './ProjectList';
 import { getData } from '../data';
 import '../styles/Projects.css';
 import '../styles/responsive.css';
