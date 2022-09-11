@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectItem from './ProjectItem.js';
+import ProjectItem from './ProjectItem';
 import '../styles/Projects.css';
 import '../styles/responsive.css';
 
