@@ -1,4 +1,3 @@
-import React from 'react'
 import { Linkedin, Github, Twitter } from 'react-bootstrap-icons'
 import './styles/Footer.css'
 

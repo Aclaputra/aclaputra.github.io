@@ -1,4 +1,3 @@
-import React from 'react';
 import CardMedia from '@material-ui/core/CardMedia';
 
 export default function ProjectItemImage({ imageUri, title, alt }) {

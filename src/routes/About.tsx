@@ -1,4 +1,3 @@
-import React from 'react'
 import { 
     Linkedin, Github, Instagram, Youtube, Twitter, Book
 } from 'react-bootstrap-icons'

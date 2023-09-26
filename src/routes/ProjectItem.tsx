@@ -1,4 +1,3 @@
-import React from 'react';
 import ProjectItemImage from './ProjectItemImage';
 import ProjectItemBody from './ProjectItemBody';
 import ProjectItemButton from './ProjectItemButton';

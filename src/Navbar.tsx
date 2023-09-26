@@ -1,4 +1,3 @@
-import React from 'react'
 import './styles/Navbar.css'
 import './styles/responsive.css'
 import About from './routes/About'
