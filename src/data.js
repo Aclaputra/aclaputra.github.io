@@ -15,7 +15,7 @@ const getData = () => {
       date: "29 Jun 2022 - 2 July 2022",
       imageUri: "./sc_employmentManagement.png",
       stacks: "Laravel, React, MySQL",
-      linkWeb: "",
+      linkWeb: "https://github.com/Aclaputra/employment-management",
       linkGithub: "https://github.com/Aclaputra/employment-management"
     },
     {

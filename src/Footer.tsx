@@ -1,5 +1,5 @@
 import { Linkedin, Github, Twitter } from 'react-bootstrap-icons'
-import './styles/Footer.css'
+// import './styles/Footer.css' // TODO: add footer css
 
 function Footer() {
     return (
