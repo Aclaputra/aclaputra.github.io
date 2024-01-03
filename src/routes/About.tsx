@@ -7,7 +7,7 @@ function About() {
     return (
         <div className="header">
           <div className="first__container">
-            <div className="pfp__img__container"><img src="komuk-v2.jpg" alt="img-pfp" className="pfp__img"></img></div>
+            <div className="pfp__img__container"><img src="pfp_kerja.jpeg" alt="img-pfp" className="pfp__img"></img></div>
             <div className="pfp__detail">
               <div className="name">M ACLA ALAMSYAH PUTRA</div>
               <div className="pfp__content light-gray"><Book size={15} /> Final Year Software Engineering student at Universitas Raharja</div>
